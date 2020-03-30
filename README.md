@@ -1,4 +1,5 @@
-# golang-data-structures
+# Data structures implemented in golang
+![test](https://github.com/MaticVerbic/golang-data-structures/workflows/test/badge.svg)
 
 ## Singly linked list
 Implementation of simple singly linked list.
