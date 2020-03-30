@@ -136,16 +136,16 @@ Simple implementation of a stack.
 ```go
 s := stack.New()
 
-	for i := 0; i < 10; i++ {
-		s.Push(i)
-	}
+for i := 0; i < 10; i++ {
+  s.Push(i)
+}
 
 
-	for i := 0; i < 5; i++ {
-		fmt.Println(s.Pop())
-	}
+for i := 0; i < 5; i++ {
+  fmt.Println(s.Pop())
+}
 
-  fmt.Println(s)
+fmt.Println(s)
 ```
 
 ### Documentation
