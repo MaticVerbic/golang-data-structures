@@ -176,3 +176,42 @@ New() *Stack
 // Returns a string representation of a node.
 (n *Node) String() string
 ```
+
+
+## Stack
+
+Simple implementation of a stack.
+
+### Example
+```go
+s := queue.New()
+
+for i := 0; i < 10; i++ {
+  s.Enqueue(i)
+}
+
+
+for i := 0; i < 11; i++ {
+  fmt.Println(s.Dequeue())
+}
+
+fmt.Println(s)
+```
+
+### Documentation
+```go
+// Returns a new Queue object.
+func New() *Queue {
+
+// Enqueue data to the tail of the queue.
+func (q *Queue) Enqueue(data interface{})
+
+// Dequeue data from the head of the queue.
+func (q *Queue) Dequeue() interface{}
+
+// String representation of the queue.
+func (q *Queue) String() string
+
+// String representation of each queue node.
+func (n *Node) String() string
+```
